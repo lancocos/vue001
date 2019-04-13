@@ -1,0 +1,24 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+$bg-color:#fff;
+body{
+  background: $bg-color;
+}
+.content>.title,.links{
+  width:100%;
+  height:50px;
+  text-align: center;
+  line-height: 50px;
+}
+.links>a{
+  text-decoration: none;
+  color:#000;
+  margin: 10px;
+}
